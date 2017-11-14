@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Unlit
+  - Sea
+  - Moon
+  - Reed
   layers:
   - Default
   - TransparentFX
@@ -15,7 +18,7 @@ TagManager:
   - 
   - 
   - CloudsToy
-  - 
+  - RainMaker
   - 
   - 
   - 

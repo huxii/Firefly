@@ -25,11 +25,8 @@ public class ReedControl : MonoBehaviour
 			dir = -1.0f;
 		}
 
-		// speed 
-		float speed = Random.Range(0.02f, 0.05f);
-
 		animator.SetFloat("Direction", dir);
-		animator.speed = speed;
+		animator.speed = 0;
 
 		animator.Play("Shake", 0, pro);
 	}
@@ -37,20 +34,6 @@ public class ReedControl : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (dir == 1.0f)
-		{
-			if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.99f)
-			{
-				animator.Play("Shake", 0, 0.0f);
-			}
-		}
-		else
-		{
-			if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime <= 0.01f)
-			{
-				animator.Play("Shake", 0, 1.0f);
-			}			
-		}
 	}
 
 	void OnTriggerEnter(Collider target)
@@ -58,7 +41,7 @@ public class ReedControl : MonoBehaviour
 		if (target.gameObject.tag == "Player")
 		{
 			// speed 
-			float speed = Random.Range(0.5f, 0.6f);
+			float speed = Random.Range(0.8f, 1.2f);
 			animator.speed = speed;
 
 			Debug.Log("enter");

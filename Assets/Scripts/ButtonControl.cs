@@ -31,19 +31,19 @@ public class ButtonControl : MonoBehaviour
 	void OnMouseEnter()
 	{
 		animator.SetBool("mouseOver", true);
-		logo.GetComponent<LogoControl>().hover();
+		//logo.GetComponent<LogoControl>().hover();
 	}
 
 	void OnMouseExit()
 	{
 		animator.SetBool("mouseOver", false);
-		logo.GetComponent<LogoControl>().unhover();
+		//logo.GetComponent<LogoControl>().unhover();
 	}
 
 	void OnMouseDown()
 	{
 		animator.SetBool("mouseOver", false);
-		logo.GetComponent<LogoControl>().click();
+		//logo.GetComponent<LogoControl>().click();
 		Destroy(gameObject);
 	}
 }

@@ -82,6 +82,7 @@ GameObject:
   - component: {fileID: 4744514701735944}
   - component: {fileID: 95361452537124660}
   - component: {fileID: 114544881505687872}
+  - component: {fileID: 65008925157620812}
   m_Layer: 0
   m_Name: reed
   m_TagString: Untagged
@@ -390,6 +391,18 @@ Transform:
   m_Father: {fileID: 4744514701735944}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65008925157620812
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1291054082955418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3, z: 1}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!95 &95361452537124660
 Animator:
   serializedVersion: 3

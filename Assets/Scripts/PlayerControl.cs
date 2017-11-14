@@ -130,5 +130,15 @@ public class PlayerControl : MonoBehaviour
 			*/
 
 		}
+		else
+		if (target.gameObject.tag == "Sea")
+		{
+			gameManager.SendMessage("StartRaining", target.gameObject);
+		}
+		else
+		if (target.gameObject.tag == "Moon")
+		{
+			gameManager.SendMessage("StopRaining", target.gameObject);
+		}
 	}
 }

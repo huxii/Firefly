@@ -178,8 +178,11 @@ public class iTweenEvent : MonoBehaviour{
 	string internalName;
 	
 	public void Start() {
-		if(playAutomatically) Play();
-		iTween.Pause();
+		Play();
+		if (!playAutomatically)
+		{
+			iTween.Pause();
+		}
 	}
 	
 	public void Play() {

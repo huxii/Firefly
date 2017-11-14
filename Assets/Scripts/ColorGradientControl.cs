@@ -10,6 +10,7 @@ public class ColorGradientControl : MonoBehaviour
 
 	public Material mat;
 	public float duration = 2.0f;
+	public AudioSource sound;
 
 	float t;
 	bool start;
@@ -36,6 +37,10 @@ public class ColorGradientControl : MonoBehaviour
 	void OnTriggerEnter(Collider target)
 	{
 		start = true;
+		if (sound)
+		{
+			sound.Play();
+		}
 	}
 }
 

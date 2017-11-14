@@ -5,7 +5,7 @@ using UnityEngine;
 public class FadingControl : MonoBehaviour
 {
 	public float fadingSpeed = 1.0f;
-	public int fadingDir;
+	public int fadingDir = 1;
 
 	float alpha;
 	GameObject manager;
@@ -14,7 +14,7 @@ public class FadingControl : MonoBehaviour
 	void Start()
 	{
 		alpha = 0.5f - fadingDir * 0.5f;
-		manager = GameObject.Find("GameManager");
+		manager = GameObject.Find("MenuManager");
 	}
 	
 	// Update is called once per frame

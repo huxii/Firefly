@@ -143,7 +143,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4335476494334492}
   - component: {fileID: 95249605327251726}
-  - component: {fileID: 114642277641389206}
   m_Layer: 0
   m_Name: grass
   m_TagString: Untagged
@@ -260,7 +259,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1759517260747596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.882492, y: 3.1317701, z: -8.630277}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4151063547639670}
@@ -372,7 +371,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1759517260747596}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2b12c7aafd637f44bbfc75cea6b3d6b3, type: 3}
+  m_Avatar: {fileID: 9000000, guid: ef9b98c8e90e611449dfbfbd24f225d4, type: 3}
   m_Controller: {fileID: 9100000, guid: c2e1c03a47f1789439eb4b2466a6c459, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -381,17 +380,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114642277641389206
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1759517260747596}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93bb538209a7b334b9d5310984571e8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!137 &137174980351921668
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -430,7 +418,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300002, guid: 2b12c7aafd637f44bbfc75cea6b3d6b3, type: 3}
+  m_Mesh: {fileID: 4300002, guid: ef9b98c8e90e611449dfbfbd24f225d4, type: 3}
   m_Bones:
   - {fileID: 4934095180676908}
   - {fileID: 4590628613683082}
@@ -483,7 +471,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300000, guid: 2b12c7aafd637f44bbfc75cea6b3d6b3, type: 3}
+  m_Mesh: {fileID: 4300000, guid: ef9b98c8e90e611449dfbfbd24f225d4, type: 3}
   m_Bones:
   - {fileID: 4934095180676908}
   - {fileID: 4590628613683082}
@@ -535,7 +523,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300004, guid: 2b12c7aafd637f44bbfc75cea6b3d6b3, type: 3}
+  m_Mesh: {fileID: 4300004, guid: ef9b98c8e90e611449dfbfbd24f225d4, type: 3}
   m_Bones:
   - {fileID: 4934095180676908}
   - {fileID: 4590628613683082}
@@ -588,7 +576,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300006, guid: 2b12c7aafd637f44bbfc75cea6b3d6b3, type: 3}
+  m_Mesh: {fileID: 4300006, guid: ef9b98c8e90e611449dfbfbd24f225d4, type: 3}
   m_Bones:
   - {fileID: 4934095180676908}
   - {fileID: 4590628613683082}
